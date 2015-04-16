@@ -1,13 +1,12 @@
 {
   "name": "js-patterns-atom-snippets",
   "main": "./lib/js-patterns-atom-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JavaScript Patterns snippets for Atom",
   "repository": "https://github.com/borisrorsvort/js-patterns-atom-snippets.git",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
