@@ -1,0 +1,4 @@
+'.source.js':
+  'Debounced function':
+    'prefix': 'debounce'
+    'body': 'var ${1:functionName} = (function() {\n\t\'use strict\';\n\n\tvar timeWindow = ${2:500}; // time in ms\n\tvar timeout;\n\n\tvar ${1:functionName} = function(${3:args}) {\n\t\t${4: // your code goes here}\n\t};\n\n\treturn function() {\n\t\tvar context = this;\n\t\tvar args = arguments;\n\t\tclearTimeout(timeout);\n\t\ttimeout = setTimeout(function() {\n\t\t\t${1:functionName}.apply(context, args);\n\t\t}, timeWindow);\n\t};\n}());'

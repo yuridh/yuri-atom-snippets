@@ -1,0 +1,4 @@
+'.source.js':
+  'improved for loop':
+    'prefix': 'ifor'
+    'body': 'for (var i = 0, len = ${1:arr}.length; i < len; i++) {\n\t${2:$1[i]}$3\n}'

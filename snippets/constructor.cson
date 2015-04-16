@@ -1,0 +1,4 @@
+'.source.js':
+  'JS constructor pattern':
+    'prefix': 'constructor'
+    'body': 'var ${1:ConstructorName} = (function() {\n\t\'use strict\';\n\n\tfunction ${1:ConstructorName}(${2:args}) {\n\t\t// enforces new\n\t\tif (!(this instanceof ${1:ConstructorName})) {\n\t\t\treturn new ${1:ConstructorName}(${2:args});\n\t\t}\n\t\t${3:// constructor body}\n\t}\n\n\t${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {\n\t\t${7:// method body}\n\t\}};\n\n\treturn ${1:ConstructorName};\n}());'

@@ -1,0 +1,16 @@
+{
+  "name": "js-patterns-atom-snippets",
+  "main": "./lib/js-patterns-atom-snippets",
+  "version": "0.0.0",
+  "description": "JavaScript Patterns snippets for Atom",
+  "activationCommands": {
+    "atom-workspace": "js-patterns:toggle"
+  },
+  "repository": "https://github.com/atom/js-patterns-atom-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

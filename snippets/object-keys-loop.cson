@@ -1,0 +1,4 @@
+'.source.js':
+  'Object.keys loop':
+    'prefix': 'okl'
+    'body': 'Objects.keys(${1:obj}).forEach(function(key) {\n\t${2:$1}\n})'

@@ -1,0 +1,4 @@
+'.source.js':
+  'for in own properties':
+    'prefix': 'forin'
+    'body': 'for (var ${1:prop} in ${2:obj}) {\n\tif (${2:obj}.hasOwnProperty(${1:prop})) {\n\t\t${3:${2:obj}[${1:prop}]$0;}\n\t}\n}'
