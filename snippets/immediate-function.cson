@@ -1,4 +1,0 @@
-'.source.js':
-  'immediate function':
-    'prefix': 'ifun'
-    'body': ';(function() {\n\t\'use strict\';\n\n\t$1\n}());'

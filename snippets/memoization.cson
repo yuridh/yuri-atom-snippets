@@ -1,4 +1,0 @@
-'.source.js':
-  'Function with memoization':
-    'prefix': 'memoize'
-    'body': 'var ${1:functionName} = (function() {\n\t\'use strict\';\n\n\tvar funcMemoized = function() {\n\t\tvar cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));\n\t\tvar result;\n\n\t\tif (!funcMemoized.cache[cacheKey]) {\n\t\t\t\t${2:// your expensive computation goes here\n\t\t\t\t// to reference the paramaters passed, use arguments[n]\n\t\t\t\t// eg.: result = arguments[0] + arguments[1];}\n\t\t\t\tfuncMemoized.cache[cacheKey] = result;\n\t\t}\n\n\t\treturn funcMemoized.cache[cacheKey];\n\t};\n\n\tfuncMemoized.cache = {};\n\n\treturn funcMemoized;\n}());'

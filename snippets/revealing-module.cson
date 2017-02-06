@@ -1,4 +1,0 @@
-'.source.js':
-  'JS revealing module pattern':
-    'prefix': 'rmodule'
-    'body': 'var ${1:revealingModuleName} = (function() {\n\t\'use strict\';\n\n\tfunction ${2:methodName}() {\n\t\t${3}\n\t}\n\n\treturn {\n\t\t${2:methodName}:${2:methodName}\n\t};\n}());'

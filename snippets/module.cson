@@ -1,4 +1,0 @@
-'.source.js':
-  'JS module pattern':
-    'prefix': 'module'
-    'body': 'var ${1:moduleName} = (function() {\n\t\'use strict\';\n\n\tvar ${1:moduleName} = {\n\t\tinit: {\n\t\t\t$2\n\t\t}\n\t};\n\n\treturn ${1:moduleName};\n}());'

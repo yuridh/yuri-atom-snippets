@@ -1,9 +1,9 @@
 {
-  "name": "js-patterns-atom-snippets",
-  "main": "./lib/js-patterns-atom-snippets",
+  "name": "yuri-atom-snippets",
+  "main": "./lib/yuri-atom-snippets",
   "version": "0.2.1",
-  "description": "JavaScript Patterns snippets for Atom",
-  "repository": "https://github.com/borisrorsvort/js-patterns-atom-snippets.git",
+  "description": "Yuri snippets for Atom",
+  "repository": "https://github.com/yuridh/yuri-atom-snippets.git",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"

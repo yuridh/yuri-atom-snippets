@@ -1,4 +1,0 @@
-'.source.js':
-  'Throttled function':
-    'prefix': 'throttle'
-    'body': 'var ${1:functionName} = (function() {\n\t\'use strict\';\n\n\tvar timeWindow = ${2:500}; // time in ms\n\tvar lastExecution = new Date((new Date()).getTime() - timeWindow);\n\n\tvar ${1:functionName} = function(${3:args}) {\n\t\t${4: // your code goes here}\n\t};\n\n\treturn function() {\n\t\tif ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {\n\t\t\tlastExecution = new Date();\n\t\t\treturn ${1:functionName}.apply(this, arguments);\n\t\t}\n\t};\n}());'

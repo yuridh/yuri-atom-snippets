@@ -1,4 +1,0 @@
-'.source.js':
-  'namespace pattern':
-    'prefix': 'namespace'
-    'body': ';(function(${1:namespace}) {\n  \'use strict\';\n\n\t$2\n})(window.$1 = window.$1 || {});'
